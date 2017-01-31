@@ -1,7 +1,7 @@
 The following functional specifications shall be implemented for the Geopin MVP.
 
 ====================
-PERMISSIONS AN ACCOUNTS
+PERMISSIONS AND ACCOUNTS
 ====================
 
 1. A user shall be able to register an account via web page.
