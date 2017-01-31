@@ -1,7 +1,13 @@
 # geopin
-This is a work in progress project to pin to a map interesting things found out in the wild, such as campaing caves, walls to climb, etc.
 
-### Contributing
+Geopin is a web app which makes it possible to identify, record, and share natural features of interest on a map via mobile phone.
+
+## Summary
+The app is being created for outdoor enthusiasts who whish to return to remote natural features or areas of interests in the future. 
+
+Geopin does this by downloading a map of your area of travel, following your movements accross the natural landscape, and providing you the means to save the position of places you'd like to return to.
+
+## Contributing
 
 1. Fork it!
 2. Create your feature branch: `git checkout -b my-new-feature`
