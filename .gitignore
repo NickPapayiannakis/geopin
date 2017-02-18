@@ -5,3 +5,5 @@ tmp/pids/
 tmp/restart.txt
 db/development.sqlite3
 Gemfile.lock
+/.idea/
+
