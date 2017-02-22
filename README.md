@@ -4,7 +4,7 @@
 
 <h1 align="center">Geopin</h1>
 
-<div align="center">
+<div align="center" style="width=70%">
   <img src="https://travis-ci.org/Geopin/geopin.svg?branch=master" alt="Travis CI">
 </div>
 
