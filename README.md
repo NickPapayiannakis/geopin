@@ -1,4 +1,4 @@
-<img src="http://rawgit.com/Geopin/geopin/master/imgs/logo.png" width="100%" />
+<img src="http://rawgit.com/Geopin/geopin/master/imgs/logo.png" width="50%" />
 
 <h1 align="center">Geopin</h1>
 
