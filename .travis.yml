@@ -5,4 +5,4 @@ rvm:
 notifications:
   slack:
     rooms:
-      - geopin:Yfd8083hJqXxAZWZAjwQkCYt#travisci
+      - geopin:Yfd8083hJqXxAZWZAjwQkCYt#deployment
