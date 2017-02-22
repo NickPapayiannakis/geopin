@@ -1,4 +1,5 @@
 # geopin
+[![Build Status](https://travis-ci.org/Geopin/geopin/geopin.svg?branch=master)](https://travis-ci.org/Geopin/geopin/geopin)
 
 Geopin is a web app which makes it possible to identify, record, and share natural features of interest on a map via mobile phone.
 
