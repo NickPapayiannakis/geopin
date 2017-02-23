@@ -6,3 +6,4 @@ notifications:
   slack:
     rooms:
       - geopin:Yfd8083hJqXxAZWZAjwQkCYt#deployment
+      - geopin:Yfd8083hJqXxAZWZAjwQkCYt#general
