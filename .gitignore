@@ -1,9 +1,0 @@
-.DS_Store
-.bundle
-log/development.log
-tmp/pids/
-tmp/restart.txt
-db/development.sqlite3
-Gemfile.lock
-/.idea/
-
