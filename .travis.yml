@@ -4,6 +4,9 @@ rvm:
   - 2.3.1
 env:
   - RAILS_ENV=test
+script:
+  - bundle exec rake db:schema:load
+  - bundle exec rake db:test:prepare
 after_failure:
   - "mysql -e 'show databases;'"
   - "cat ./config/database.yml"
