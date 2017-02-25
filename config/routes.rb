@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  
+  # Pins
+
   get 'pins/drop'
 
   get 'pins/delete'
@@ -14,6 +17,8 @@ Rails.application.routes.draw do
   get 'pins/vote'
 
   get 'pins/add_season'
+  
+  # Users
 
   get 'users/new'
 
@@ -25,5 +30,8 @@ Rails.application.routes.draw do
 
   get 'users/update'
 
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  get 'login/index'
+  
+  root 'login#index'
+
 end
