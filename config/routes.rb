@@ -1,4 +1,20 @@
 Rails.application.routes.draw do
+  get 'pins/drop'
+
+  get 'pins/delete'
+
+  get 'pins/describe'
+
+  get 'pins/move'
+
+  get 'pins/tag'
+
+  get 'pins/add_photo'
+
+  get 'pins/vote'
+
+  get 'pins/add_season'
+
   get 'users/new'
 
   get 'users/delete'
