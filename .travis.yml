@@ -7,5 +7,5 @@ notifications:
     rooms:
       - geopin:Yfd8083hJqXxAZWZAjwQkCYt#deployment
   script:
-    - RAILS_ENV=test bundle exec rake db:migrate --trace
+    - rails RAILS_ENV=test bundle exec rake db:migrate --trace
     - bundle exec rake db:test:prepare
