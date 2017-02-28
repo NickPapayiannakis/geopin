@@ -1,0 +1,13 @@
+/*==============================================================================
+  Layout Limits
+ ==============================================================================*/
+
+$layout-fixed-max-width: 800px;
+$layout-fixed-max-width-small: 580px;
+$layout-fixed-max-width-large: 1200px;
+$layout-fix-sidebar-width: 250px;
+$layout-min-sidebar-width: 250px;
+
+.layout-content {
+  display: flex;
+}
