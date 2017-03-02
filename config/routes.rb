@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  
+  # Root directory
+  root 'login#index'
+
   # Pins
 
   get 'pins/drop'
@@ -19,6 +21,7 @@ Rails.application.routes.draw do
   get 'pins/add_season'
   
   # Users
+  resources :users
 
   get 'users/new'
 
@@ -32,6 +35,6 @@ Rails.application.routes.draw do
 
   get 'login/index'
   
-  root 'login#index'
+
 
 end
