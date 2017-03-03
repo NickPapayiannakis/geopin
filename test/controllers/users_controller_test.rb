@@ -7,22 +7,22 @@ class UsersControllerTest < ActionDispatch::IntegrationTest
   end
 
   test "should get delete" do
-    get users_delete_url
+    get delete_path
     assert_response :success
   end
 
   test "should get login" do
-    get users_login_url
+    get login_path
     assert_response :success
   end
 
   test "should get logout" do
-    get users_logout_url
+    get logout_path
     assert_response :success
   end
 
   test "should get update" do
-    get users_update_url
+    get update_path
     assert_response :success
   end
 

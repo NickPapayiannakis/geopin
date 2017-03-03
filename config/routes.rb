@@ -25,16 +25,18 @@ Rails.application.routes.draw do
 
   get 'users/new'
 
-  get 'users/delete'
+  get '/delete', to: 'users#delete'
 
-  get 'users/login'
+  get '/signup', to: 'users#new'
 
-  get 'users/logout'
+  get '/login', to: 'users#login'
 
-  get 'users/update'
+  get '/logout', to: 'users#logout'
+
+  get '/update', to: 'users#update'
 
   get 'login/index'
-  
 
+  post '/signup',  to: 'users#create'
 
 end
