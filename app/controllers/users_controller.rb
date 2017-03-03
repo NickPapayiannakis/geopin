@@ -18,7 +18,8 @@ class UsersController < ApplicationController
   def create
     @user = User.new(user_params)
     if @user.save
-      #handle successful save
+      flash[:success] = "Welcome to Geopin!"
+      redirect_to @user
     else
       render 'new'
     end
